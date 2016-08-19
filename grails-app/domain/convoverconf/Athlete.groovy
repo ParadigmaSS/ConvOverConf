@@ -4,7 +4,10 @@ class Athlete {
 
 	String name
 
-	static belongsTo = [country: Country]
+	static hasMany = [medals: Medal, modalitys: Modality]
+	static belongsTo = [country: Country, team: Team]
+    
     static constraints = {
+    	team nullable: true
     }
 }
