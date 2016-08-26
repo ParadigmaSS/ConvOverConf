@@ -11,4 +11,8 @@ class Modality {
     static constraints = {
     	athletes nullable: true
     }
+
+    String toString() {
+    	return name
+    }
 }
