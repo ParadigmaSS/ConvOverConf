@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
+                </button>                
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
                         <asset:image src="grails-cupsonly-logo-white.svg"/>
@@ -33,6 +33,20 @@
                 <ul class="nav navbar-nav navbar-right">
                     <g:pageProperty name="page.nav" />
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inserir <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li><a href="${createLink(controller : 'Athlete', action:'create')}">Atleta</a></li>
+                <li><a href="${createLink(controller : 'Country', action:'index')}">País</a></li>
+                <li><a href="${createLink(controller : 'Modality', action:'create')}">Modalidade</a></li>
+                <li><a href="${createLink(controller : 'Medal', action:'create')}">Medalha</a></li>
+                <li><a href="${createLink(controller : 'Sport', action:'create')}">Esporte</a></li>
+                <li><a href="${createLink(controller : 'Team', action:'create')}">Time</a></li>
+                </ul>
+                </li>
+                </ul>
+
             </div>
         </div>
     </div>
