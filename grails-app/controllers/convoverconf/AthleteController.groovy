@@ -104,4 +104,9 @@ class AthleteController {
             '*'{ render status: NOT_FOUND }
         }
     }
+
+    def listing(){
+        def athletes = Athlete.list()
+        [athletes:athletes]
+    }
 }
