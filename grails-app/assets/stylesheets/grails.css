@@ -35,7 +35,7 @@ pre {
     margin: 10px;
 }
 .navbar-default a {
-    color: #ffffff !important;
+    color: darkgray !important;
     font-size: 18px !important;
     text-decoration: none;
 }

@@ -7,20 +7,6 @@
     <asset:link rel="icon" href="logo.jpg" type="image/x-ico" />
 </head>
 <body>
-    <content tag="nav">
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inserir <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="athlete/index">Atleta</a></li>
-                <li><a href="country/index">País</a></li>
-                <li><a href="modality/index">Modalidade</a></li>
-                <li><a href="medal/index">Medalha</a></li>
-                <li><a href="sport/index">Esporte</a></li>
-                <li><a href="team/index">Time</a></li>
-            </ul>
-        </li>
-    </content>
-
     <div class="svg" role="presentation">
         <div class="grails-logo-container">
             <asset:image src="logo.jpg" class="grails-logo"/>
