@@ -44,7 +44,7 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color:blue;
     border: 0px;
 }
 a.navbar-brand {
@@ -283,7 +283,7 @@ article .content time {
 #footer .colset-3-footer .col-1 h1, #footer .colset-3-footer .col-2 h1, #footer .colset-3-footer .col-3 h1 {
     font-size: 15px !important;
 }
-
+footer
 .anchor-link:before {
     content: ' # ';
     color: lightgray;

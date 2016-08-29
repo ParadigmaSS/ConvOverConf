@@ -23,6 +23,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+            <ul class="dropdown-menu">
+                <li><a href="athlete/index">Atleta</a></li>
+                <li><a href="country/index">País</a></li>
+                <li><a href="modality/index">Modalidade</a></li>
+                <li><a href="medal/index">Medalha</a></li>
+                <li><a href="sport/index">Esporte</a></li>
+                <li><a href="team/index">Time</a></li>
+            </ul>                
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
                         <asset:image src="grails-cupsonly-logo-white.svg"/>

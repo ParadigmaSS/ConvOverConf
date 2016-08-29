@@ -3,7 +3,7 @@
     <head>
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'sport.label', default: 'Sport')}" />
-        <title><g:message code="default.list.label" args="[entityName]" /></title>
+        <title>Esportes</title>
     </head>
     <body>
         <a href="#list-sport" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
